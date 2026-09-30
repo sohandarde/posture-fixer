@@ -1,0 +1,6 @@
+-- CreateTable
+CREATE TABLE "PostureLog" (
+    "id" TEXT NOT NULL PRIMARY KEY,
+    "distance" INTEGER NOT NULL,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
